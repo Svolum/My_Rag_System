@@ -1,0 +1,24 @@
+.*
+!.gitignore
+norm_rag/state.json
+uuid_mapping.db
+
+# Локальные базы и индексы
+*.db
+*.sqlite3
+norm_rag/state.json
+
+# Данные контейнеров и тома
+volumes/
+pgvector-data/
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+
+# Кэш моделей HuggingFace / PyTorch
+.cache/
+models/
